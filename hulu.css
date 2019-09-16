@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(209, 222, 146);
+}
+.supermenu{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(41, 41, 27);
+}
+.submenu{
+    width:100vw;
+    height:400px;
+    background-color: rgb(96, 94, 38);
+    margin-bottom: 80px;
+}
+
+.title{
+    background-color: darkolivegreen;
+    width: 49vw;
+    height: 75px;
+    margin-left: 10px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+.image{
+    background-color: rgb(35, 45, 36);
+    height:200px;
+}
+.info{
+    background-color: rgb(61, 96, 56);
+    height: 100px;
+    margin-bottom: 5em;
+}
+.largeimage{
+    background-color: rgb(145, 154, 142);
+    height: 300px;
+
+}
+
+.video_grid{
+    display: grid;
+    width: 98.5vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-row-gap: 5em;
+    grid-column-gap: 5px;
+
+}
+
+.video{
+    height: 300px;
+}
+
+.highlighted{
+    display: grid;
+    width: 98.5vw;
+    margin-top: 80p;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;      
+                 
+}
+
+.tall_image_grid{
+    display: grid;
+    width: 98.5vw;
+    margin-top: 80p;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px; 
+
+}
+.tallimage{
+    height: 550px;
+    background-color: darkseagreen
+}
