@@ -1,0 +1,94 @@
+body{
+background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.supermenu{
+    background-color: rgb(112, 179, 112);
+    width: 100vw;
+    height: 50px
+}
+.filters1{
+    background-color: rgb(137, 181, 137);
+    width: 100vw;
+    height: 50px
+}
+.filters{
+    background-color: rgb(191, 216, 191);
+    width: 100vw;
+    height: 50px
+}
+.main{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.right{
+    display: grid;
+    grid-template-rows: 200px 500px 700px;
+    grid-row-gap: 7px;
+    background-color: darkseagreen;
+
+}
+.widget{
+    margin-left: 7px;
+    margin-right: 25px;
+    margin-top: 7px;
+    background-color: rgb(5, 40, 5)
+
+}
+
+.smallarticle_grid{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-row-gap: 7px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.image{
+    background-color: greenyellow;
+    height: 150px;
+}
+.largearticle{
+    background-color: darkgreen;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.descriptions{
+    background-color: green;
+    height: 150px;
+}
+.smallarticle{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.largearticletwo{
+    background-color: darkgreen;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.largeimage{
+    background-color: greenyellow;
+    height: 300px;
+    margin:20px
+
+}
+.smallimagerow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.smallimage{
+    background-color: greenyellow;
+    height: 150px;
+    margin-top: 20px;
+}
