@@ -1,5 +1,9 @@
+
 body{
-    background-color: rgb(31, 31, 31);
+    margin: 0%;
+    padding: 0%;
+    background-color: #191818
+    
 }
 .westeroscraft img{
     width: 90vw;
@@ -94,18 +98,19 @@ line-height: 3vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 36vw;
     margin-left: 1vw;
-    margin-top: 6vw;
-    margin-bottom: 6vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     overflow: scroll;
     
 }
 .bar img {
     max-width: 35vw;
     overflow: scroll;
-    height: 20vw;
+    height: 45vh;
 
 }
 img:hover{
+    z-index: 1;
     filter: grayscale(70%);
 
 
