@@ -1,3 +1,141 @@
+
 body{
-    background-color: rgb(31, 31, 31);
+    margin: 0%;
+    padding: 0%;
+    background-color: #191818
+    
+}
+.westeroscraft img{
+    width: 90vw;
+    height: 20vw;
+    margin-left: 4vw;
+}
+.home{
+    display: block;
+    float: left;
+    padding: 0;
+    margin-left: 1vw;
+}
+.howwedoit{
+margin: 2vw;
+display: inline;
+}
+
+h3{
+display: inline;
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 500;
+font-style: normal;
+color: white;
+font-size: 2vw;
+}
+
+h2{
+color: white;
+font-family: ltc-pabst-oldstyle, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 6vw;
+margin-left: 1vw;
+line-height: 3vw;
+}
+.banner1{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #9D5050, #191818) ;
+}
+.banner2{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #8E8F88, #191818) ;
+}
+.banner3{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #3D5C71, #191818) ;
+}
+.banner4{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #534C79, #191818) ;
+}
+.banner5{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #69887F, #191818) ;
+}
+.banner6{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #AF7F43, #191818) ;
+}
+.banner7{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right,#646C3F, #191818) ;
+}
+.banner8{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #9D5050, #191818) ;
+}
+.banner9{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #728BAB, #191818) ;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 36vw;
+    margin-left: 1vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    overflow: scroll;
+    
+}
+.bar img {
+    max-width: 35vw;
+    overflow: scroll;
+    height: 45vh;
+
+}
+img:hover{
+    z-index: 1;
+    filter: grayscale(70%);
+
+
+}
+
+/*-----------Tablet----------*/
+@media only screen and (min-width:800px) and (max-width:1200px) {
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 36vw;
+    margin-left: 1vw;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    overflow: scroll;
+} 
+/* ----------- SMART PHONES ----------- */
+@media only screen and (max-width: 800px) {
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 36vw;
+    margin-left: 1vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    overflow: scroll;
+    }
 }

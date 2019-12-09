@@ -1,0 +1,209 @@
+body{
+    background-color: #191818;
+}
+h1{ 
+color: white;
+font-family: ltc-pabst-oldstyle, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 14vw;
+margin: 0;
+margin-left: 1vw;
+line-height: 3vw;
+margin-top:6vw;
+margin-bottom: 6vw;
+text-align: center;
+}
+h2{
+color: white;
+font-family: ltc-pabst-oldstyle, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 6vw;
+margin: 0;
+margin-left: 1vw;
+line-height: 3vw;
+margin-top:2vw;
+}
+p{
+    color: white;
+    margin: .5vw;
+    margin-right:1.5vw;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5vw;
+}
+.banner1{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #9D5050, #191818) ;
+}
+.banner2{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #8E8F88, #191818) ;
+}
+.banner3{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #3D5C71, #191818) ;
+}
+.banner4{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #534C79, #191818) ;
+}
+.banner5{
+    display: block;
+    width: 90vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #69887F, #191818) ;
+}
+.banner6{
+    display: block;
+    width: 95vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #AF7F43, #191818) ;
+}
+.banner7{
+    display: block;
+    width: 95vw;
+    height: 3.5vw;
+    background: linear-gradient(to right,#646C3F, #191818) ;
+}
+.banner8{
+    display: block;
+    width: 100vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #9D5050, #191818) ;
+}
+.banner9{
+    display: block;
+    width: 95vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #728BAB, #191818) ;
+}
+.banner51{ 
+    display: block;
+    width: 90vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #8aa8cf, #191818) ;
+}
+.banner52{
+    display: block;
+    width: 90vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #9abbe6, #191818) ;
+}
+.textandimage{
+    display: grid;
+    grid-template-columns: 47.5vw 47.5vw;
+    margin-top: 2vw;
+    margin-left:1vw;
+}
+.textandimage img{
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+.identvw{
+    margin-left: 5vw;
+}
+.doubleidentvw{
+    margin-left: 10vw;    
+}
+.doubleidentvw .textandimage{
+    display: grid;
+    grid-template-columns: 42.5vw 42.5vw;
+}
+.identvw .textandimage{
+       display: grid;
+    grid-template-columns: 45vw 45vw; 
+}
+img{
+    max-width: 100%;
+}
+.top{
+    width: 100vw;
+}
+
+
+/* ----------- SMART PHONES ----------- */
+
+@media only screen and (max-width: 800px) {
+.textandimage img{
+display: block;
+object-fit: scale-down;
+width: 90vw;
+height: auto;
+margin-top:6vh;
+
+}
+.doubleidentvw .textandimage{
+    display: block;
+}
+.identvw .textandimage{
+    display: block;
+}
+.fullvw .textandimage{
+display: block;
+}
+
+p{
+    font-size: 10px;
+    line-height: 12px;
+}
+.identvw{
+    margin-left: 10vw;
+    width:80vw ;
+}
+.doubleidentvw{
+    margin-left: 15vw;
+    width: 75vw;
+}
+.banner9{
+    display: block;
+    width: 90vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #728BAB, #191818) ;
+}
+.banner51{ 
+    display: block;
+    width: 85vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #8aa8cf, #191818) ;
+}
+.banner52{
+    display: block;
+    width: 85vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #9abbe6, #191818) ;
+}
+.banner5{
+    display: block;
+    width: 85vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #69887F, #191818) ;
+}
+.banner6{
+    display: block;
+    width: 90vw;
+    height: 3.5vw;
+    background: linear-gradient(to right, #AF7F43, #191818) ;
+}
+.banner7{
+    display: block;
+    width: 90vw;
+    height: 3.5vw;
+    background: linear-gradient(to right,#646C3F, #191818) ;
+}
+
+/*-----------Tablet----------*/
+@media only screen and (min-width:800px) and (max-width:1200px) {
+
+}

@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  max-width: 100%;
+}
+
+.main_hover {
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.bw_30 {
+  filter: grayscale(30%);
+}
+
+.bw_70 {
+  filter: grayscale(70%);
+}
+
+.example {
+  margin: 20px;
+  border-top: 10px solid yellow;
+}
+
+.caption {
+  display: none;
+}
+
+.example:hover {
+  filter: grayscale(100%);
+  border-top: 10px solid black;
+}
+
+.example:hover .caption {
+  display: block;
+}
+
+.alt_hover {
+  width: 300px;
+  display: block;
+}
+
+.alt_hover .example {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.alt_hover .example:hover .caption {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: yellow;
+  margin: 0;
+}
