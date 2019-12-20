@@ -96,7 +96,7 @@ line-height: 3vw;
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 36vw;
+    column-gap: 1vw;
     margin-left: 1vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -112,8 +112,16 @@ line-height: 3vw;
 img:hover{
     z-index: 1;
     filter: grayscale(70%);
+}
+a:hover{
+    z-index: 1;
+    filter: grayscale(70%);
 
+}
 
+a{
+    margin: 0pt;
+    padding: 0pt;
 }
 
 /*-----------Tablet----------*/

@@ -60,7 +60,7 @@ width: 0%;
     margin-top: 45vh;
 }
 body{
-    background-image: url(/Westeroscraft/Kingslanding.jpg);
+    background-image: url(/img/Kingslanding.jpg);
     background-size: 125vw;
 }
 }
@@ -76,7 +76,7 @@ iframe{
 }
 
 body{
-    background-image: url(/Westeroscraft/Kingslanding.jpg);
+    background-image: url(/img/Kingslanding.jpg);
     background-size: 175vw;
 }
 }
@@ -93,7 +93,7 @@ iframe{
     position: hid;
 }
 body{
-    background-image: url(/Westeroscraft/Kingslanding.jpg);
+    background-image: url(/img/ng.jpg);
     background-size: 225vw;
 }
 }
