@@ -71,7 +71,6 @@ body{
 iframe{
         height: 00vh;
         width: 00vw;
-
 }
 
 body{
@@ -88,7 +87,7 @@ body{
 iframe{
     height: 00vh;
     width: 00vw;
-    position: hid;
+    position: hidden;
 }
 body{
     background-size: 225vw;
