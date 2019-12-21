@@ -60,11 +60,11 @@ width: 0%;
     margin-top: 45vh;
 }
 body{
-    background-image: url(/img/Kingslanding.jpg);
+    background-image: url(/img/kingslanding.jpg);
     background-size: 125vw;
 }
 }
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 .landing{
     height: 6%;
     margin-top: 45vh;
@@ -76,24 +76,7 @@ iframe{
 }
 
 body{
-    background-image: url(/img/Kingslanding.jpg);
+    background-image: url(/img/kingslanding.jpg);
     background-size: 175vw;
-}
-}
-@media only screen and (max-width: 600px) {
-
-.landing{
-    height: 4.5%;
-    margin-top: 45vh;
-}
-
-iframe{
-    height: 00vh;
-    width: 00vw;
-    position: hid;
-}
-body{
-    background-image: url(/img/ng.jpg);
-    background-size: 225vw;
 }
 }
