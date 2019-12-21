@@ -98,8 +98,8 @@ line-height: 3vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 1vw;
     margin-left: 1vw;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
     overflow: scroll;
     
 }
@@ -129,10 +129,10 @@ a{
     .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 36vw;
+    column-gap: 1vw;
     margin-left: 1vw;
-    margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
     overflow: scroll;
 } 
 /* ----------- SMART PHONES ----------- */
@@ -140,10 +140,10 @@ a{
     .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 36vw;
+    column-gap: 1vw;
     margin-left: 1vw;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     overflow: scroll;
     }
 }
